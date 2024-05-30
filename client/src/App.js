@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css'; 
+import './App.css';
 
 function App() {
   const [date, setDate] = useState(new Date());
@@ -81,7 +82,7 @@ function App() {
       />
       <button onClick={handleSubmit}>Submit Entry</button>
       {entries.map((entry, index) => (
-        <div key={index}>
+        <div key={index} className="entry">
           <p>{entry.textEntry}</p>
           {entry.audioFile && <audio controls src={`http://localhost:3000/uploads/${entry.audioFile}`} />}
         </div>

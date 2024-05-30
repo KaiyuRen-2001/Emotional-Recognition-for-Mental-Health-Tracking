@@ -1,38 +1,94 @@
+/* General App styling */
 .App {
+  font-family: 'Arial', sans-serif;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+h1 {
+  color: #333;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Calendar styling */
+.react-calendar {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-top: 20px;
+  color: #333; /* Sets the text color to dark grey, which is nearly black */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.react-calendar__tile {
+  color: inherit; /* Ensures that all tiles inherit the parent color setting */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+  background-color: #e6f7ff;
+}
+
+.react-calendar__tile--active {
+  background-color: #b3e5fc;
+}
+
+/* Specific override for text color, if necessary */
+.react-calendar__tile--active:enabled,
+.react-calendar__tile--active:enabled:hover {
+  color: #333;
+}
+
+/* Text area styling */
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  resize: none;
+}
+
+/* File input styling */
+input[type="file"] {
+  display: block;
+  width: 100%;
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Button styling */
+button {
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #007bff;
   color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover {
+  background-color: #0056b3;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Entry display styling */
+.entry {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-left: 5px solid #007bff;
+  border-radius: 4px;
+}
+
+audio {
+  width: 100%;
+  margin-top: 10px;
 }
