@@ -22,4 +22,7 @@ npm run
 
 
 
-Link for demo video: https://drive.google.com/file/d/1FlPvHwknnhVv_kwZTwekdY0b4_IO9o61/view?usp=sharing
+Link for demo video: 
+1. Model Deployment: https://drive.google.com/file/d/1FlPvHwknnhVv_kwZTwekdY0b4_IO9o61/view?usp=sharing
+2. Website: https://stanford.zoom.us/rec/share/uhh27q1OR2nAXddC0tdcWRlDBSfzIumramHoqhBn2Idn7aAHRru5CYkY-_WStURQ.xN7icb8WEZShcAxq?startTime=1717905502000
+Passcode: K^b163*=
