@@ -26,31 +26,7 @@ const storage = multer.diskStorage({
 
 const upload = multer({ storage: storage });
 
-// // Create uploads directory if it doesn't exist
-// if (!fs.existsSync('uploads')){
-//   fs.mkdirSync('uploads');
-// }
 
-// // Routes
-// app.post('/api/upload', upload.single('audioFile'), (req, res) => {
-//   const { textEntry, date } = req.body;
-//   const audioFile = req.file;
-
-//   // Here, save the file and text data to your database or file system
-//   console.log('Received date:', date);
-//   console.log('Received text:', textEntry);
-//   if (audioFile) {
-//     console.log('Received file:', audioFile.filename);
-//   }
-
-//   // Respond to the client
-//   res.json({
-//     message: "Successfully uploaded data and file!",
-//     textEntry: textEntry,
-//     date: date,
-//     audioFile: audioFile ? audioFile.filename : null
-//   });
-// });
 
 const dbFile = path.join(__dirname, 'data.json');
 

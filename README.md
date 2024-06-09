@@ -7,3 +7,15 @@
 https://journify.co/ Possible app idea
 1. tags for personal mood
 2. mood tracking
+
+## Run backend
+
+```
+python3 main.py
+```
+
+## Run frontend
+
+```
+npm run 
+```
