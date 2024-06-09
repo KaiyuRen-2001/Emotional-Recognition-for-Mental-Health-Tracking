@@ -26,3 +26,6 @@ Link for demo video:
 1. Model Deployment: https://drive.google.com/file/d/1FlPvHwknnhVv_kwZTwekdY0b4_IO9o61/view?usp=sharing
 2. Website: https://stanford.zoom.us/rec/share/uhh27q1OR2nAXddC0tdcWRlDBSfzIumramHoqhBn2Idn7aAHRru5CYkY-_WStURQ.xN7icb8WEZShcAxq?startTime=1717905502000
 Passcode: K^b163*=
+
+Google Colab code for models:
+1. https://colab.research.google.com/drive/1L_zTyls6VbyPDsoMw5jwNSAX7RGn76sQ?authuser=1#scrollTo=TSTJ6Bqv5wJ5 (includes demo voice-to-chat interface at the end)
