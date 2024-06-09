@@ -7,3 +7,6 @@
 https://journify.co/ Possible app idea
 1. tags for personal mood
 2. mood tracking
+
+
+Link for demo video: https://drive.google.com/file/d/1FlPvHwknnhVv_kwZTwekdY0b4_IO9o61/view?usp=sharing
